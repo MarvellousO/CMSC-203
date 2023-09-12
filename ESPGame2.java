@@ -23,8 +23,18 @@ public class ESPGame2 {
         System.out.println("Enter your name: " + userName);
         System.out.println("Describe yourself: " + userDescription);
         System.out.println("Due Date: " + dueDate);
-
-        // Create a loop for the game
+	
+	// Instructions
+	System.out.println("This a guessing game and you have 10 tries to guess the color");
+	
+	System.out.println("each number from 0 to 4 represent a color");
+	System.out.println("0 = Red" +
+			   " 1 = Green" +
+		           " 2 = Blue" +
+		           " 3 = Orange" +
+		           " 4 = Yellow");
+        
+	// Create a loop for the game
         for (int i = 1; i <= 10; i++) {
             randomPick = random.nextInt(5);
             System.out.println("I'm thinking of a color, can you guess what it is: ");
@@ -32,8 +42,12 @@ public class ESPGame2 {
 
 	    // Initialize color
 	    color = ""; 
-
-            switch (randomPick) {
+	
+	if (userGuess < 0 || userGuess > 4) {
+        System.out.println("Error: invalid value");
+    } else {
+           
+	 switch (randomPick) {
                 case 0:
                     color = "Red";
                     break;
@@ -49,9 +63,10 @@ public class ESPGame2 {
                 case 4:
                     color = "Yellow";
                     break;
-		default: 
-			System.out.println("Error: invalid number: ");
+		default:
+		    System.out.print( "Error: invaid value" );
             }
+		
 
             if (userGuess == randomPick) {
                 System.out.println("Great job! You got it! The color is " + color);
@@ -64,6 +79,7 @@ public class ESPGame2 {
         // Print the total score
         System.out.println("Total correct guesses: " + total);
     }
+  }
 }
 
 

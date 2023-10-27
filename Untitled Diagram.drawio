@@ -1,9 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T21:13:03.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.2" etag="uoxm_DMyz_KqIIMa0jcg" type="github">
-  <diagram name="Page-1" id="l0bDbYseaKnaGMmTkBUA">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-10-27T19:37:41.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="W1XLX2d_YYz_J8XaynDG" version="22.0.8" type="github" pages="3">
+  <diagram name="Entries " id="l0bDbYseaKnaGMmTkBUA">
+    <mxGraphModel dx="1062" dy="1385" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-1" value="Subscriber Management&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="93" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="658" y="-197" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-4" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="243" y="428" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-8" value="Subscriber Management&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="249" y="-174" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-9" value="Subscriber Management&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="249" y="93" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-10" value="Subscriber Management&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="93" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-11" value="Subscriber Management&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="87" y="93" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-12" value="Subscriber Management&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="411" y="95" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-13" value="Subscriber Management&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="573" y="93" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="vhbSEIsOcnSEktHbMtw4-14" value="Subscriber Management&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="735" y="93" width="108" height="108" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qg5iak7FHm55HrBqHYbu" name="Processes">
+    <mxGraphModel dx="364" dy="942" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="srrOOfSDUTxBm04H1jaw-1" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Registering Users&lt;br/&gt;and Subscribers&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-59" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="srrOOfSDUTxBm04H1jaw-2" value="Managing&lt;br/&gt;User and Subscriber Profiles" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="111" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-2" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Handling User&lt;br/&gt;Authentication and Permissions&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="267" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-4" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Scheduling Tutoring&lt;br/&gt;Sessions&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="221" y="-61" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-5" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Processing&lt;br/&gt;On-Demand Requests&lt;br&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="221" y="111" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-6" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Managing Session&lt;br/&gt;Modifications and Cancellations&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="221" y="267" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-8" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Handling Financial&lt;br/&gt;Transactions (Charges and Payments)&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="389" y="-59" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-9" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Generating Various&lt;br/&gt;Reports (Daily, Monthly, Exception, Profit-and-Loss)&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="389" y="111" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-10" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Implementing&lt;br/&gt;Advanced Analytics for Decision Support&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="389" y="267" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-11" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Enabling&lt;br/&gt;Communication Features (Email, Social Networking)&lt;br&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="557" y="-11" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-12" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Tracking Progress&lt;br/&gt;and Generating Activity Reports&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="557" y="158" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-13" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Optimizing System&lt;br/&gt;Performance for Scalability and Response Times&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="557" y="322" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-14" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Ensuring&lt;br/&gt;Data Security, Access Control, and Privacy Compliance&lt;br&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="725" y="-6" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-15" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Developing Mobile&lt;br/&gt;Applications for iOS and Android&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="725" y="155" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="uoCpIMRSvtVqXXoVwjGF-16" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Recording&lt;br/&gt;Audit Trails and Managing Data Backups and Recovery&lt;br&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="725" y="322" width="107" height="107" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2EsBms4xjPguJgNlsyf2" name="Data Stores ">
+    <mxGraphModel dx="364" dy="942" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yQNI-ZbD1iumYo10PZ6n-1" value="Subscriber Information&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="43" y="-2" width="152" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="yQNI-ZbD1iumYo10PZ6n-2" value="Tutor Information&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="41" y="147.5" width="152" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="issbC8ltoNxLGArSo4HF-1" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Session&lt;br/&gt;Information (Database)&lt;/p&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="43" y="266" width="152" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="issbC8ltoNxLGArSo4HF-2" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Financial Data&lt;br/&gt;(Accounting Software Integration)&lt;/p&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="226" y="-2" width="152" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="issbC8ltoNxLGArSo4HF-3" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;Report Data&lt;br/&gt;(Generated Reports)&lt;/p&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="221" y="147.5" width="152" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="issbC8ltoNxLGArSo4HF-4" value="&lt;p style=&quot;margin:0in;font-family:Calibri;font-size:11.0pt&quot;&gt;User Profiles&lt;br/&gt;(Database)&lt;/p&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="226" y="265" width="152" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="issbC8ltoNxLGArSo4HF-5" value="Tutor Information&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="416" y="-2" width="153" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="issbC8ltoNxLGArSo4HF-6" value="Communication&lt;br/&gt;Records (Emails, Social Media)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="417" y="149" width="152" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="issbC8ltoNxLGArSo4HF-7" value="Tutor Information&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="419" y="266" width="152" height="83" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,5 +1,4 @@
 # CMSC-203
-Objecive:
-  This repository is for projects for my ComSci 203 class
-
- 
+Objective: 
+  This repository contains projects for my Computer Science 203 class.
+  The focus is on learning the basics of Java and properly using GitHub as a version control   system.

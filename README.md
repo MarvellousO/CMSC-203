@@ -1,6 +1,7 @@
 # Computer Science 1 (CMSC 203)
 
-Welcome to **CMSC 203: Computer Science 1**
+Welcome to **CMSC 203: Computer Science 1**.
+
 This course is designed to introduce fundamental concepts of computer science and programming to beginners using the Java programming language.
 
 ## Course Objectives

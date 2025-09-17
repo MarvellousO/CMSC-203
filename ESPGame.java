@@ -14,9 +14,9 @@ public class ESPGame {
         PrintWriter outputFile = new PrintWriter("players.txt");
 
         // variables
-        int userGuess, randomPick = 0, round = 0, total = 0; 
+        int round = 0, total = 0; 
         int menuChoice;
-        String userName, userDescription, dueDate, color = "";
+        String userName, userDescription, dueDate, userGuess = "", color = "";
         String fileName = "colors.txt";
         String option_1 = "Option 1: Display the first 16"
                 + " colors from colors.txt ";
@@ -35,6 +35,7 @@ public class ESPGame {
                 + "%s%n%s%n%s%n%s%n", option_1, option_2, option_3, option_4);
 
         menuChoice = keyBoard.nextInt();
+        
         if (menuChoice == 4) {
             System.exit(0); // Exit without an error
         } else {
@@ -65,10 +66,12 @@ public class ESPGame {
             }
         }
 
-        while (round < 3) {
+        keyBoard.nextLine(); // clear newline
 
+        while(round < 3) {
+        	System.out.println("Round " + (round + 1));
             if (menuChoice == 1) {
-                randomPick = random.nextInt(16) + 1; // for 1 - 16
+                int randomPick = random.nextInt(16) + 1; // for 1 - 16
                 switch (randomPick) {
                     case 1:  color = "black"; break;
                     case 2:  color = "white"; break;
@@ -86,12 +89,10 @@ public class ESPGame {
                     case 14: color = "blue"; break;
                     case 15: color = "teal"; break;
                     case 16: color = "aqua"; break;
-                    default:
-                        System.out.print("Error: invalid value");
                 }
             }
             else if (menuChoice == 2) {
-                randomPick = random.nextInt(10) + 1; // for 1 - 10
+                int randomPick = random.nextInt(10) + 1; // for 1 - 10
                 switch (randomPick) {
                     case 1:  color = "black"; break;
                     case 2:  color = "white"; break;
@@ -103,56 +104,53 @@ public class ESPGame {
                     case 8:  color = "fuchsia"; break;
                     case 9:  color = "green"; break;
                     case 10: color = "lime"; break;
-                    default:
-                        System.out.print("Error: invalid value");
                 }	
             }
             else if (menuChoice == 3) {
-                randomPick = random.nextInt(5) + 1; // for 1 - 5
+                int randomPick = random.nextInt(5) + 1; // for 1 - 5
                 switch (randomPick) {
                     case 1:  color = "black"; break;
                     case 2:  color = "white"; break;
                     case 3:  color = "gray"; break;
                     case 4:  color = "silver"; break;
                     case 5:  color = "maroon"; break;
-                    default:
-                        System.out.print("Error: invalid value");
                 }	
             }
-
-           
-            if (menuChoice == 1) {
-                System.out.println("I'm thinking of a color, can you guess what it is (1–16): ");
-            } else if (menuChoice == 2) {
-                System.out.println("I'm thinking of a color, can you guess what it is (1–10): ");
-            } else if (menuChoice == 3) {
-                System.out.println("I'm thinking of a color, can you guess what it is (1–5): ");
-            }
-
-            userGuess = keyBoard.nextInt();
-
-            // Validation to match menu choice
-            boolean validGuess = false;
-            if (menuChoice == 1 && (userGuess >= 1 && userGuess <= 16)) validGuess = true;
-            if (menuChoice == 2 && (userGuess >= 1 && userGuess <= 10)) validGuess = true;
-            if (menuChoice == 3 && (userGuess >= 1 && userGuess <= 5)) validGuess = true;
-
-            // If vaildGuess is not its original value of false skip output block
-            if (!validGuess) {
-                System.out.println("Error: invalid value");
-            } else if (userGuess == randomPick) {
-                    System.out.println("Great job! You got it! The color is " + color);
-                    total++;
-                } else {
-                    System.out.println("Oh no, the correct choice was "
-                            + color + ". Let's try again!");
-                }
+	
+	        if (menuChoice == 1) {
+	            System.out.println("I'm thinking of a color, can you guess what it is: ");
+	            userGuess = keyBoard.nextLine();
+	            if (userGuess.equalsIgnoreCase(color)) {
+	                System.out.println("Great job! You got it! The color is " + color);
+	                total++;
+	            } else {
+	                System.out.println("Oh no, the correct choice was " + color);
+	            }
+	        } 
+            else if (menuChoice == 2) {
+	            System.out.println("I'm thinking of a color from the first 10 colors, can you guess what it is: ");
+	            userGuess = keyBoard.nextLine();
+	            if (userGuess.equalsIgnoreCase(color)) {
+	                System.out.println("Great job! You got it! The color is " + color);
+	                total++;
+	            } else {
+	                System.out.println("Oh no, the correct choice was " + color);
+	            }  
+	        } 
+            else if (menuChoice == 3) {
+	            System.out.println("I'm thinking of a color from the first 5 colors, can you guess what it is: ");
+	            userGuess = keyBoard.nextLine();
+	            if (userGuess.equalsIgnoreCase(color)) {
+	                System.out.println("Great job! You got it! The color is " + color);
+	                total++;
+	            } else {
+	                System.out.println("Oh no, the correct choice was " + color );
+	            }
+	        }
             
             round++;
-        }
-    	
-        keyBoard.nextLine(); 
-        
+	    }
+    
         // Get user's information
         System.out.print("What is your name: ");
         userName = keyBoard.nextLine();
@@ -168,7 +166,7 @@ public class ESPGame {
 
         // Print the total score
         System.out.println("Game Over");
-        System.out.printf("You guessed %d out of 3 colors correctly: %n", total);
+        System.out.printf("You guessed %d out of 3 colors correctly.%n", total);
 
         // Write to file
         outputFile.println("Due Date: " + dueDate);

@@ -10,16 +10,8 @@ public class CheckingAccount extends BankAccount {
 
 	@Override
 	public boolean withdraw(double amount){
-		boolean withdrawEnabled = true;
-		
-		if(amount > super.getBalance() ){
-			return withdrawEnabled;
-		}
-		else
-		{  withdrawEnabled  = false;
-			return withdrawEnabled;
-		}
-
+		amount = amount + FEE;
+		return super.withdraw(amount);
 	}
 
 }
